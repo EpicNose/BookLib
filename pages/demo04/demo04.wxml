@@ -1,0 +1,22 @@
+<!--pages/demo04/demo04.wxml-->
+<!-- <text>pages/demo04/demo04.wxml</text> -->
+<!-- <button type="primary">123456</button>
+<button type="warn" style="v3">123456</button>
+<button type="warn" plain="{{true}}">123456</button>
+<button type="primary" loading>123456</button>
+<button size="mini" >123456</button> -->
+<button open-type="contact">contact</button>
+<!-- <button open-type="share">share</button> --> -->
+<!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button> -->
+<!-- <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button> -->
+<!-- <button open-type="launchApp">launchApp</button> -->
+<!-- <button open-type="openSetting">openSetting</button> -->
+<!-- <button open-type="feedback">feedback</button> -->
+<!-- <button open-type="openSetting">openSetting</button> -->
+<icon class="" type="success" size="23" color="yellow"></icon>
+<icon class="" type="cancel" size="23" color="#0094ff"></icon>
+<radio-group bindchange="onRadioChange">
+    <radio value="male">123</radio  >
+    <radio value="female">123</radio  >
+</radio-group>
+<view >{{gender}}</view>

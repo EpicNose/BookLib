@@ -1,0 +1,24 @@
+<!--pages/demo03/demo03.wxml-->
+<!-- <view1>rpxxxxxxxxxxxxxxxxxxxxxxxx</view1> -->
+<swiper autoplay="true" indicator-dots="{{true}}" circular="{{true}}">
+  <swiper-item><image src="https://pic.imgdb.cn/item/621f783b5baa1a80ab0e552c.jpg" ></image></swiper-item>
+  <swiper-item><image src="https://pic.imgdb.cn/item/621f7e575baa1a80ab146fd0.jpg" ></image></swiper-item>
+  <swiper-item><image src="https://pic.imgdb.cn/item/621f7e5d5baa1a80ab14732b.jpg" ></image></swiper-item>
+</swiper>
+<text selectable="{{true}}">123</text>
+<!-- <image mode="widthFix" src="https://pic.imgdb.cn/item/621f783b5baa1a80ab0e552c.jpg"></image> -->
+
+<navigator class="" target="" url="/pages/demo02/demo02" hover-class="navigator-hover" open-type="navigate">
+  跳转跳转
+</navigator>
+
+<view>
+<navigator class="" target="" url="/pages/index/index" hover-class="navigator-hover" open-type="switchTab">
+  跳转跳转主页面
+</navigator>
+</view>
+<rich-text nodes="{{html1}}"></rich-text>
+
+
+
+

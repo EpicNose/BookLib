@@ -1,0 +1,7 @@
+<checkbox-group bindchange="onCheckBoxSelect">
+    <checkbox value="{{item.price}}" wx:for="{{list}}" wx:key="{{item.id}}">
+        {{item.name}}
+    </checkbox>
+      
+</checkbox-group>
+<view >{{SelectedList}}</view>

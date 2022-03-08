@@ -1,0 +1,19 @@
+/* pages/demo03/demo03.wxss */
+view1{
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    background-color: aqua;
+}
+image1{
+    width: 50rpx;
+    height: 60rpx;
+
+}
+swiper{
+   width: 100%;
+   height: calc(100vw*1080/1920); 
+}
+image{
+    width: 100%;
+}

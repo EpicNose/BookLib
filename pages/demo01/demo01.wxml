@@ -1,0 +1,41 @@
+<!--pages/demo01/demo01.wxml-->
+<text>pages/demo01/demo01.wxml</text>
+<!-- <view class="" hover-class="none" hover-stop-propagation="false">
+    123456
+</view> -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{msg}}
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+    需要支付{{num}}元
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    是不是女生{{isGirl}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    高度为:{{Person.Height}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    体重为:{{Person.Weight}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    房子为:{{Person.House}}
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    是否为单身:{{Person.IsSingle}}
+</view>
+
+<view data-num="{{num}}">自定义属性</view>
+<!-- 在标签的属性中进行数据绑定是拿来干嘛的 -->
+<view >
+    <checkbox checked="{{true}}" />
+</view>
+
+<view >
+    {{11%2==0 ? true : false}}
+</view>
+
+
+
+  

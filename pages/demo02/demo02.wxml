@@ -1,0 +1,14 @@
+<!--pages/demo02/demo02.wxml-->
+<!-- <text>pages/demo02/demo02.wxml</text> -->
+<!-- <input type="text" bindinput="onInput" /> -->
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{num}}
+</view>
+<!-- <view >
+    当前年龄为{{Person.age}}
+</view> -->
+<button bindtap="onTap" data-operation="{{1}}" >+</button>
+<button bindtap="onTap" data-operation="{{-1}}" >-</button>
+<view>
+{{num}}
+</view>
