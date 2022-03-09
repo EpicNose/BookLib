@@ -11,5 +11,9 @@
     align-items: center;
 }
 .tabs_content{
-    
+
+}
+.active{
+    color: red;
+    border-bottom: 10rpx solid currentColor;
 }
