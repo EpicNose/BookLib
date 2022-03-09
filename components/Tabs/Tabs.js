@@ -11,7 +11,16 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    tabs:[
+      {
+        id:0,
+        name:'首页',
+        isActive:true
+      },
+      {
+        id:1,
+      }
+    ]
   },
 
   /**
