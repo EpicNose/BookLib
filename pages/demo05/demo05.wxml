@@ -6,4 +6,4 @@
 </checkbox-group>
 <view >{{SelectedList}}</view>
 
-<Tabs></Tabs>
+<Tabs tabs="{{tabs}}"></Tabs>
