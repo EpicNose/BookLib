@@ -14,11 +14,23 @@ Component({
     tabs:[
       {
         id:0,
-        name:'首页',
-        isActive:true
+        name:"首页",
+        isActive:false
       },
       {
         id:1,
+        name:"原创",
+        isActive:false
+      },
+      {
+        id:2,
+        name:"分类",
+        isActive:false
+      },
+      {
+        id:3,
+        name:"关于",
+        isActive:false
       }
     ]
   },
@@ -27,6 +39,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    handleItemTap(e){
+      
+      console.log(e)
+    },
   }
 })
