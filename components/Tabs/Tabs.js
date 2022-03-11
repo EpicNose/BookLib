@@ -27,11 +27,12 @@ Component({
   methods: {
     handleItemTap(e){
       const index=e.currentTarget.dataset.index;
-      let {tabs}=this.data;
-      tabs.forEach((v,i)=> i===index?v.isActive=true:v.isActive=false)
-      this.setData({
-        tabs
-      })
+      //let {tabs}=this.data;
+      //tabs.forEach((v,i)=> i===index?v.isActive=true:v.isActive=false)
+      // this.setData({
+      //   tabs
+      // })
+      this.triggerEvent("ItemChange",{index});
     },
   }
 })
