@@ -64,8 +64,8 @@ Page({
       tabs.forEach((v,i)=> i===index?v.isActive=true:v.isActive=false)
       this.setData({
         tabs
-      }),
-      console.log(index)
+      })
+      // console.log(index)
   },
   /**
    * 生命周期函数--监听页面加载
