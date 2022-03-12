@@ -7,3 +7,10 @@
 <view >{{SelectedList}}</view>
 
 <Tabs tabs="{{tabs}}" bindItemChange="onTabItemChange"></Tabs>
+
+
+<block wx:if="{{tabs[0].isActive}}">序号0</block>    
+<block wx:elif="{{tabs[1].isActive}}">序号1</block>    
+<block wx:elif="{{tabs[2].isActive}}">序号2</block>    
+<block wx:elif="{{tabs[3].isActive}}">序号3</block>    
+<!-- //这个类似于占位符 -->
