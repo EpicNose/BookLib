@@ -13,7 +13,7 @@
   "window":{
     "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "图书借阅管理",
     "enablePullDownRefresh": true,
     "navigationBarTextStyle":"black"
   },
