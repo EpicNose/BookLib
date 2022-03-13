@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/demo05/demo05",
+    "pages/find/find", 
+    "pages/demo01/demo01",
     "pages/demo04/demo04",
+    "pages/demo05/demo05",
+    "pages/index/index",
     "pages/demo03/demo03",
     "pages/demo02/demo02",
-    "pages/demo01/demo01",
-    "pages/index/index",
-    "pages/find/find",
     "pages/userinfo/userinfo",
     "pages/logs/logs"
   ],
@@ -26,9 +26,9 @@
     },
       {
       "pagePath": "pages/find/find",
-      "text": "主页",
-      "iconPath": "assets/logos/home.png",
-      "selectedIconPath": "assets/selectedlogos/_home.png"
+      "text": "订单",
+      "iconPath": "assets/logos/dingdan7.png",
+      "selectedIconPath": "assets/selectedlogos/_dingdan7.png"
     },
     {
       "pagePath": "pages/userinfo/userinfo",

@@ -36,6 +36,8 @@
     {{11%2==0 ? true : false}}
 </view>
 
+<text class="iconfont icon-daiqueding"></text>
+
 
 
   
