@@ -38,3 +38,6 @@
 <text class="iconfont icon-daiqueding"></text>  -->
 
 
+<view class="SearchSearch">
+    <SearchInput>123</SearchInput>
+</view>
