@@ -1,9 +1,9 @@
-<!--pages/demo01/demo01.wxml-->
+<!-- pages/demo01/demo01.wxml
 <text>pages/demo01/demo01.wxml</text>
 <!-- <view class="" hover-class="none" hover-stop-propagation="false">
     123456
 </view> -->
-<view class="" hover-class="none" hover-stop-propagation="false">
+<!-- <view class="" hover-class="none" hover-stop-propagation="false">
     {{msg}}
 </view>
 
@@ -26,18 +26,15 @@
     是否为单身:{{Person.IsSingle}}
 </view>
 
-<view data-num="{{num}}">自定义属性</view>
+<view data-num="{{num}}">自定义属性</view> -->
 <!-- 在标签的属性中进行数据绑定是拿来干嘛的 -->
-<view >
+<!-- <view >
     <checkbox checked="{{true}}" />
 </view>
 
 <view >
     {{11%2==0 ? true : false}}
 </view>
-
-<text class="iconfont icon-daiqueding"></text>
-
+<text class="iconfont icon-daiqueding"></text>  -->
 
 
-  
