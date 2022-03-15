@@ -1,4 +1,4 @@
 /* pages/demo01/demo01.wxss */
 view{
-    color:var(--themeColor)
+    /* color:var(--themeColor) */
 }
